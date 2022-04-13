@@ -1,0 +1,13 @@
+html,
+body {
+  /* height: 210mm; */
+  width: 297mm;
+}
+table {
+  border-collapse: collapse;
+  border: none;
+}
+td,
+th {
+  border: 1px solid black;
+}

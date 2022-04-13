@@ -1,0 +1,1 @@
+Для работы необходима БД "cargotrans_crm", подключается по mysqli_connect()

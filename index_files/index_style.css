@@ -1,0 +1,114 @@
+table td {
+  border: 0;
+  height: 50px;
+  width: 250px;
+}
+.header {
+  width: 100vw;
+  height: 120px;
+  background-color: #0f0e1d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+.header-item {
+  height: 90px;
+  margin-top: 15px;
+  color: white;
+  line-height: 90px;
+  font-size: 14pt;
+}
+
+a {
+  color: white;
+}
+
+h2,
+h3 {
+  line-height: 80px;
+  margin: 5px 0 0 !important;
+}
+button {
+  background-color: unset;
+  height: 50px;
+  width: 210px;
+  border: white 1px solid;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  background-color: #ffffff31;
+}
+.main {
+  margin-top: 120px;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-image: url("main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-size: 100%; */
+}
+.button-bar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-bar button {
+  margin: 0 5px;
+}
+
+.land1 {
+  height: 400px;
+  background-image: url("land1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.land2 {
+  height: 500px;
+  background-image: url("land2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.land3 {
+  height: 140px;
+  background-image: url("land3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.application {
+  height: 300px;
+  background-color: #211531;
+  padding: 40px 120px;
+  color: white;
+  font-size: 14pt;
+}
+input[type="submit"] {
+  background-color: unset;
+  height: 34px;
+  width: 308px;
+  border: white 1px solid;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+input[type="submit"]:hover {
+  background-color: #ffffff31;
+}
+input[type="text"] {
+  height: 24px;
+  width: 300px;
+}
+.application h2 {
+  margin: 0;
+}
